@@ -18,7 +18,7 @@ printf "\e[1;77m | | | / __|/ _ \ '__| |_) / _ \/ __/ _ \| '_ \ \e[0m\e[99;34m|\
 printf "\e[1;77m | |_| \__ \  __/ |  |  _ <  __/ (_| (_) | | | | \e[0m\e[99;34m\    ||    / \e[0m\n"
 printf "\e[1;77m  \___/|___/\___|_|  |_| \_\___|\___\___/|_| |_|  \e[0m\e[99;34m\        / \e[0m\n"
 printf "                   \e[99;34mv1.0, Author: @AL_Alamy      \e[0m   \e[99;34m\  __  / \e[0m\n"
-printf "                                                    \e[1;92m'.__.' \e[0m\n"
+printf "                                                    \e[99;34m'.__.' \e[0m\n"
                                                 
 
 
@@ -35,7 +35,7 @@ fi
 
 scanner() {
 
-read -p $'\e[1;92m[\e[0m\e[1;77m?\e[0m\e[1;92m] Input Username:\e[0m ' username
+read -p $'\e[99;34m[\e[0m\e[1;77m?\e[0m\e[99;34m] Input Username:\e[0m ' username
 
 if [[ -e $username.txt ]]; then
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Removing previous file:\e[0m\e[1;77m %s.txt" $username
